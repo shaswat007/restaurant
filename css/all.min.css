@@ -302,7 +302,7 @@ form{
 }
 @media (max-width: 700px){
     .vbar{
-        display: inline-flexbox;
+        display: none;
     }
     .title{
         margin: 80px 40px;

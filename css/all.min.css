@@ -237,6 +237,7 @@
 }
 .all{
     background-image: url(bgd.jpg);
+    max-width: 100%;
 }
 .review{
     display: flex;

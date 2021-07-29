@@ -1,0 +1,375 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+
+.nav{
+    height: 100vh;
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.4)), url(sec.png);
+    background-position: center;
+    background-size: cover;
+    overflow-x: hidden;
+    position: relative;
+}
+.navbar{
+    display: flex;
+    padding: 40px 120px;
+}
+.logo img{
+    width: 300px;
+}
+.navlink{
+    flex: 1;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+.navlink ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 25px;
+}
+.navlink ul a{
+    color: rgb(231, 213, 213);
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+}
+.navlink ul a:hover{
+    color: rgb(179, 179, 4);
+}
+.navlink ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: yellow;
+    display: block;
+    margin: auto;
+    transition: .5s;
+}
+.navlink ul li:hover::after{
+    width: 100%;
+}
+.btn{
+    padding: 14px 25px;
+    border: 0;
+    background-color: yellow;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 30px;
+    border-radius: 5px;
+}
+.btn:hover{
+    background-color: rgb(187, 187, 42);
+    color: white;
+}
+.title{
+    margin-top: 10px;
+    color: white;
+    margin-left: 100px;
+}
+.title h1{
+    font-size: 60px;
+    margin-bottom: 30px;
+    font-family: 'Roboto Slab', serif;
+}
+.vbar{
+    height: 100%;
+    background: rgb(0, 0, 0);
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+.search{
+    height: 60%;
+    width: 80px;
+}
+.search .fas{
+    margin: 45px 23px;
+    display: block;
+    color: yellow;
+    font-size: 30px;
+    cursor: pointer;
+}
+.search .fas:hover{
+    color: white;
+}
+.media{
+    height: 35%;
+    width: 80px;
+    background: yellow;
+    text-align: center;
+    padding-top: 27%;
+    bottom: 0;
+    position: absolute;
+}
+.media .fab{
+    margin: 15px 23px;
+    display: block;
+    padding: 8px;
+    cursor: pointer;
+    font-size: 25px;
+}
+.media .fab:hover{
+    color: white;
+}
+.border{
+    background-color: rgb(0, 0, 0);
+    height: 10px;
+}
+.border2{
+    background-color: yellow;
+    height: 68px;
+}
+.border2{
+    font-size: 30px;
+    text-align: center;
+}
+.spec{
+    background-color: black;
+    height: 45px;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+.maincontainer{
+    width: 100%;
+    height: auto;
+}
+.ckimg,.ccimg,.bcimg,.snimg,.marimg,.cbimg,.mdimg{
+    width: 319px;
+    height: 319px;
+    border-radius: 8px;
+}
+.cktitle,.cctitle,.bctitle,.sntitle,.martitle,.cbtitle,.mdtitle{
+    border-radius: 8px;
+    background-image: url(bgd2.jpg);
+    text-align: center;
+    color: white;
+    box-shadow: 15px 15px 15px rgb(185, 53, 1);
+}
+.ck,.cc,.bc,.sn,.mar,.cb,.md{
+    margin-top: 40px;
+    width: 323px;
+}
+.cktitle h1 , .cctitle h1 ,.bctitle h1,.sntitle h1,.martitle h1,.cbtitle h1,.mdtitle h1{
+    color: rgb(251, 255, 32);
+    font-family: 'Lora', serif;}
+.cktitle h2 , .cctitle h2 ,.bctitle h2,.sntitle h2,.martitle h2,.cbtitle h2,.mdtitle h2{
+    color: rgb(245, 183, 67);
+    font-family: 'Dancing Script', cursive;
+}
+.cktitle p , .cctitle p ,.bctitle p,.sntitle p,.martitle p,.cbtitle p,.mdtitle p{
+    font-family: 'Style Script', cursive;
+}
+.subcontainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.rec,.rev,.giveurrev{
+    background-color: black;
+    height: 45px;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+.row2,.row3{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.subcontainer2{
+    display: block;
+}
+.foot{
+    flex: 1;
+    text-align: center;
+    background-color: rgb(202, 156, 5);
+    margin-top: 40px;
+}
+.foot ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 25px;
+}
+.foot ul a{
+    color: rgb(231, 213, 213);
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+}
+.foot ul a:hover{
+    color: rgb(179, 83, 4);
+}
+.foot ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: yellow;
+    display: block;
+    margin: auto;
+    transition: .5s;
+}
+.foot ul li:hover::after{
+    width: 100%;
+}
+.btn2{
+    padding: 8px 16px;
+    background-color: rgb(188, 207, 78);
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 16px;
+    color: rgb(88, 75, 1);
+    margin-bottom: 5px;
+    font-family: 'Abril Fatface', cursive;
+}
+.btn2:hover{
+    background-color:yellow;
+    color: rgb(197, 193, 136);
+}
+.btnbar{
+    text-align: center;
+}
+.all{
+    background-image: url(bgd.jpg);
+}
+.review{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 40px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+.rimg img{
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+}
+.review1,.review2,.review3{
+    width: 300px;
+    height: auto;
+    font-family: 'Style Script', cursive;
+    color: white;
+}
+.r{
+    border: 1px solid red;
+    background-image: url(bgd2.jpg);
+    box-shadow: 15px 15px 15px rgb(185, 53, 1);
+    margin: 20px;
+}
+.rtitle{
+    color: rgb(251, 255, 32);
+    font-family: 'Lora', serif;
+}
+.feedback{
+    align-self: center;
+    align-content: center;
+    text-align: center;
+    display: block;
+    justify-content: center;
+}
+form{
+    margin: 35px;
+    display: block;
+}
+.field{
+    width: 400px;
+    height: 40px;
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    outline: none;
+}
+.submit{
+    width: 68px;
+    height: 30px;
+    border-radius: 10px;
+    font-size: 15px;
+    background-color:rgb(255, 246, 246) ;
+}
+.submit:hover{
+    background-color: red;
+}
+@media (max-width: 700px){
+    .vbar{
+        display: none;
+    }
+    .title{
+        margin: 80px 40px;
+    }
+    .title h1{
+        font-size: 40px;
+    }
+    .navbar{
+        padding: 10px 30px;
+    }
+    .fa-bars{
+        position: absolute;
+        right: 20px;
+        top: 10px;
+    }
+    .navbar .fa{
+        display: block;
+        color: #fff;
+        margin: 10px 25px;
+        font-size: 22px;
+        cursor: pointer;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+html{
+    font-size: 1rem;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+
+.navbar a{
+    font-size: 1.5rem;
+    text-decoration: none;
+    color:white;
+    padding-right: 1.5rem;
+    text-align: center;
+}
+.navbar{
+    padding-top: 7px;
+    padding-left: 10px;
+    height: 4vh;
+    background-color: rgb(56, 59, 56);
+    border-radius: 5px;
+    float: right;
+}
+.navbar a:hover{
+    color: green;
+}
+img{
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 80vh;
+    border-radius: 5px;
+}
+/* 

@@ -12,10 +12,16 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
+    <link href="https://fonts.googleapis.com/css2?family=Style+Script&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Lora:ital,wght@1,500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Style+Script&display=swap" rel="stylesheet">
+
+
 
 </head>
 <body>
-  
+  <!-- SECTION-1 -->
         <div class="nav">
             <div class="navbar">
                 <div class="logo">
@@ -30,7 +36,6 @@
                     <a href="#" style="color: rgb(238, 255, 0);font-weight: 600;"><li>Login/Signup</li></a>
                 </ul>
             </div>
-              
             </div>
             <br><br><br><br><br><br>
             <div class="title"> 
@@ -58,8 +63,12 @@
     <div class="spec">
         <h1>Our <span style="color: yellow;">Speciality</span></h1>
     </div>
-    <!-- new -->
+    <!-- SECTION-2 -->
+    <!-- I USED CK,CC,BC,MAR,MD,SN AS A SHORT FORM OF EVERY DISHES -->
 <div class="all">
+
+   <div class="cart"><i class="fas fa-cart-plus fa-3x"></i></div>
+<br>
     <div class="maincontainer">
 
         <div class="subcontainer">
@@ -75,7 +84,7 @@
                         <h2>Price: 350Rs</h2>
                     </div>
                     <div class="btnbar">
-                        <button type="button" class="btn2">ADD+</button>
+                        <button type="button" class="btn2" id="but1">ADD+</button>
                     </div>
                 </div>
             </div>
@@ -91,7 +100,7 @@
                         <h2>Price: 350Rs</h2>
                     </div>
                     <div class="btnbar">
-                        <button type="button" class="btn2">ADD+</button>
+                        <button type="button" class="btn2" id="but2">ADD+</button>
                     </div>
                 </div>
             </div>
@@ -107,7 +116,7 @@
                         <h2>Price: 350Rs</h2>
                     </div>
                     <div class="btnbar">
-                        <button type="button" class="btn2">ADD+</button>
+                        <button type="button" class="btn2" id="but3">ADD+</button>
                     </div>
                 </div>
             </div>
@@ -115,7 +124,7 @@
         </div>
 
     </div>
-
+<!-- SECTION-3 -->
    <br><br>
     <div class="rec">
         <h1>Our <span style="color: yellow;">Recommended</span></h1>
@@ -135,7 +144,7 @@
                         <h2>Price: 350Rs</h2>
                     </div>
                     <div class="btnbar">
-                        <button type="button" class="btn2">ADD+</button>
+                        <button type="button" class="btn2" id="but4">ADD+</button>
                     </div>
                 </div>
             </div>
@@ -151,7 +160,7 @@
                         <h2>Price: 350Rs</h2>
                     </div>
                     <div class="btnbar">
-                        <button type="button" class="btn2">ADD+</button>
+                        <button type="button" class="btn2" id="but5">ADD+</button>
                     </div>
                 </div>
             </div>
@@ -169,7 +178,7 @@
                         <h2>Price: 350Rs</h2>
                     </div>
                     <div class="btnbar">
-                        <button type="button" class="btn2">ADD+</button>
+                        <button type="button" class="btn2" id="but6">ADD+</button>
                     </div>
                 </div>
             </div>
@@ -185,7 +194,7 @@
                         <h2>Price: 350Rs</h2>
                     </div>
                     <div class="btnbar">
-                        <button type="button" class="btn2">ADD+</button>
+                        <button type="button" class="btn2" id="but7">ADD+</button>
                     </div>
                 </div>
             </div>
@@ -197,6 +206,7 @@
 <div class="rev">
         <h1>Our <span style="color: yellow;">Reviews</span></h1>
     </div>
+    <!-- SECTION-4 -->
 <div class="review" >
     <div class="r">
         <div class="rimg">
@@ -237,7 +247,11 @@
     </div>
 </div>
 
+<div class="select">
+    
+</div>
 
+<!-- SECTION-4 -->
 <div class="giveurrev">
         <h1>Give <span style="color: yellow;">Your Review</span></h1>
 </div>
@@ -260,13 +274,13 @@
             <textarea type="number" rows="6" class="field" placeholder="Feedback and Suggestions"></textarea>
         </div>
         <div>
-            <input class="submit" type="submit" value="Submit">
+            <input class="submit" id="submit" type="submit" value="Submit">
         </div>
     </form>
 </div>
 
 
-
+<!-- SECTION-5 -->
 
     <footer>
         <div class="foot">
@@ -278,11 +292,36 @@
                 </ul>
             </div>
     </footer>
-
-
-
-
 </div>
+
+<script type="text/javascript">
+    document.getElementById("but1").onclick=function(){
+        alert("Added to cart");
+    }
+    document.getElementById("but2").onclick=function(){
+        alert("Added to cart");
+    }
+    document.getElementById("but3").onclick=function(){
+        alert("Added to cart");
+    }
+    document.getElementById("but4").onclick=function(){
+        alert("Added to cart");
+    }
+    document.getElementById("but5").onclick=function(){
+        alert("Added to cart");
+    }
+    document.getElementById("but6").onclick=function(){
+        alert("Added to cart");
+    }
+    document.getElementById("but7").onclick=function(){
+        alert("Added to cart");
+    }
+    document.getElementById("submit").onclick=function(){
+        alert("Submitted! Thank you");
+    }
+</script>
+
 
         </body>
 </html>
+

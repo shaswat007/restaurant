@@ -162,6 +162,7 @@
 }
 .cktitle p , .cctitle p ,.bctitle p,.sntitle p,.martitle p,.cbtitle p,.mdtitle p{
     font-family: 'Style Script', cursive;
+    font-size: 21px;
 }
 .subcontainer{
     display: flex;
@@ -259,6 +260,10 @@
     font-family: 'Style Script', cursive;
     color: white;
 }
+.review1 p,.review2 p,.review3 p{
+    font-family: 'Style Script', cursive;
+    font-size: 20px;
+}
 .r{
     border: 1px solid red;
     background-image: url(bgd2.jpg);
@@ -300,7 +305,16 @@ form{
 .submit:hover{
     background-color: red;
 }
-@media (max-width: 700px){
+.cart{
+    font-size: 20px;
+    float: right;
+    padding: 20px;
+    cursor: pointer;
+    color: white;
+    margin-top: 40px;
+}
+
+@media (max-width: 100%){
     .vbar{
         display: none;
     }
@@ -326,4 +340,6 @@ form{
         cursor: pointer;
     }
 }
+
+
 

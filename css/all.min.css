@@ -305,13 +305,12 @@ form{
 .submit:hover{
     background-color: red;
 }
-.cart{
+cart{
     font-size: 20px;
     float: right;
-    padding: 20px;
+    padding:0px 20px 20px 20px;
     cursor: pointer;
     color: white;
-    margin-top: 40px;
 }
 
 @media (max-width: 100%){
